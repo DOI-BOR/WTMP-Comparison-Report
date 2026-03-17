@@ -31,3 +31,5 @@ jobs:
         env:
             GITHUB_ACTOR: ${{ secrets.PACKAGES_USER }}
             GITHUB_TOKEN: ${{ secrets.PACKAGES_PAT }}
+            NEXUS_USER: ${{ secrets.NEXUS_USER }}
+            NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
